@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* navbar styles */
+
+.nav-bar {
+  background: hsl(0, 0%, 91%);
+}
+
+.nav-center {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.login-btn {
+  border: transparent;
+  background: transparent;
+  color: #96bb7c;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+.join-btn {
+  background: #96bb7c;
+  border: transparent;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* banner styles */
+
+.banner {
+  background: #b6e4fa;
+  height: auto;
+}
+
+.banner-center {
+  padding-top: 4rem;
+  max-width: 1170px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.banner-description h5 {
+  color: #96bb7c;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.banner-description h1 {
+  color: #252b42;
+  font-size: 58px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 80px;
+  margin-top: 32px;
+  letter-spacing: 1px;
+}
+
+.banner-description h4 {
+  font-size: 20px;
+  color: #737373;
+  line-height: 30px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.get-quote-btn {
+  border: transparent;
+  background: #96bb7c;
+  padding: 15px 25px;
+  color: white;
+  border-radius: 5%;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.learn-more-btn {
+  border: 1px solid #96bb7c;
+  background: transparent;
+  padding: 15px 25px;
+  color: #96bb7c;
+  border-radius: 5%;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.banner-img {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.child-img {
+  max-width: 500px;
+  position: relative;
+  height: 700px;
+}
+
+.girl-img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 58%;
+  left: 50%;
+  width: 100%;
+  display: block;
+}
+
+.pink-square {
+  position: absolute;
+  top: 40%;
+}
+
+.score-img {
+  position: absolute;
+  width: 60%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.infographic-img {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 60%;
+}
+
+/* statistic center styles */
+
+.single-stat {
+  padding: 80px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.single-stat h1 {
+  font-size: 58px;
+  font-weight: 700;
+  color: #96bb7c;
+}
+
+.single-stat h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #252b42;
+  text-transform: capitalize;
+}
+
+/* courses styles  */
+
+.courses {
+  background: #fff2f3;
+  padding: 5rem;
+}
+
+.courses h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.single-course {
+  background: white;
+  width: 328px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 2rem 1rem;
+}
+
+.single-icon {
+  padding: 2rem;
+  background: #fff2f3;
+  border-radius: 50%;
+  color: #e74040;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.single-course h5 {
+  margin-bottom: 1rem;
+}
+
+.underline {
+  background: #e74040;
+  width: 50px;
+  height: 2px;
+  margin-bottom: 2rem;
+}
+
+/* footer styles */
+
+.footer-center {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  text-transform: capitalize;
+}
+
+.social-media-container i {
+  color: #96bb7c;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+/* whatsapp button styles */
+
+.wa-img {
+  width: 20%;
+  position: fixed;
+  top: 80%;
+  left: 80%;
+}
+
+/* media queries */
+
+@media screen and (min-width: 768px) {
+  /* banner center */
+  .banner-center {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .statistic-center {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+
+  .courses {
+    padding: 10rem 0;
+  }
+
+  .courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    row-gap: 2rem;
+  }
+
+  .courses-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    color: #252b42;
+  }
+
+  .single-course {
+    margin: 0;
+  }
+
+  .courses h2 {
+    margin-left: 2rem;
+  }
+
+  .wa-img {
+    width: 10%;
+    position: fixed;
+    top: 70%;
+    left: 90%;
+  }
+}
