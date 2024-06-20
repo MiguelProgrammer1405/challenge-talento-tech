@@ -59,6 +59,10 @@ body {
   overflow: hidden;
 }
 
+.banner-description {
+  padding: 0 2rem;
+}
+
 .banner-description h5 {
   color: #96bb7c;
   font-size: 1rem;
@@ -238,6 +242,11 @@ body {
 
 @media screen and (min-width: 768px) {
   /* banner center */
+
+  .banner-description {
+    padding: 0;
+  }
+
   .banner-center {
     display: flex;
     align-items: center;
